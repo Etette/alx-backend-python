@@ -3,8 +3,8 @@
 from typing import Any, Sequence, Union
 
 
-#the types of elements of the input are not known
-def safe_first_element(lst: Sequence[Any]) -> Union[Any,None]:
+# the types of elements of the input are not known
+def safe_first_element(lst: Sequence[Any]) -> Union[Any, None]:
     """Args:
             lst: any data type
         Returns:
